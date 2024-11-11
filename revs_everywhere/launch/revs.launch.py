@@ -7,7 +7,7 @@ def generate_launch_description():
     node_agent = Node(
         name="revs_everywhere",
         package="revs_everywhere",
-        executable="revs_everywhere",
+        executable="revs_everywere",
     )
     ld = LaunchDescription()
     ld.add_action(node_agent)
